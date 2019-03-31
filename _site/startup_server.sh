@@ -1,0 +1,1 @@
+docker run -it --rm -p 4000:4000 -w /tmp/workdir -v $PWD:/tmp/workdir jekyll/jekyll jekyll serve

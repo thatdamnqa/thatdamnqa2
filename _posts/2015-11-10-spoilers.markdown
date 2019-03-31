@@ -1,0 +1,21 @@
+---
+layout: link
+title:  "Spoilers"
+date:   2015-11-10 00:00:00 +0000
+categories: blog
+link: http://www.nngroup.com/articles/spoilers/
+---
+
+Katie Sherwin, for Nielsen Norman Group, nails it when it comes to TV spoilers on the HBO Now service:
+
+> Much to my dismay though, each time I click on the Game of Thrones thumbnail, it reveals a big image of the latest episode — complete with characters that I didn't know were still alive, in contexts that give away the plot. I see who is together arm in arm, which villains are undeservedly still in power, and which heroes are alive and in jail.
+
+> I literally have to block the screen with my hands each time I go to watch an episode. A friend of mine uses the squint approach: half looking away in order to blur the revealing images and summary text, while he maneuvers the mouse to the correct season.
+
+And she perfectly sums up the problem:
+
+> Satisfying multiple sets of user needs doesn't mean designing for the lowest common denominator. It's about empathy with the different use cases and making sure that the content for one audience, even if it’s a main audience, doesn’t ruin the experience for a different use case.
+
+Absolutely. It's the modern equivalent of looking away from seeing the football results.
+
+Which reminds me: I've lost count the number of times BBC News have spoilt the F1 results for me beforethey air the extended highlights show...

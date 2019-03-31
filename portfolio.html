@@ -1,0 +1,21 @@
+---
+layout: default
+title: Portfolio
+---
+<h2>Portfolio</h2>
+<p>Some select things that I've done. You can find more projects by selecting a skill from the "Skills" menu.</p>
+
+
+<ul>
+  {% assign ordered_pages = site.portfolio | sort:"order" %}
+  {% for post in ordered_pages %}
+    {% if post.featured == "featured" %}
+      <div class="post">
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{post.title}}</a>
+        </h2>
+        {{ post.content }}
+      </div>
+    {% endif %}
+  {% endfor %}
+</ul>

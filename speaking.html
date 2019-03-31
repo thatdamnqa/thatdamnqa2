@@ -1,0 +1,56 @@
+---
+layout: default
+title: Speaking
+---
+<h2>Speaking</h2>
+
+<p>I love to speak at any opportunity, usually about code quality. There are details of some usergroup, conference, and
+  lightning talks I've done below.</p>
+
+<p>If you'd like me to speak at your conference, I'd love to. You can find my
+  <a href="/speaker-rider">speaker rider</a>.</p>
+
+<div style="clear: both">
+  <h3>Thinker, Tester, Lawyer, Spy</h3>
+  <ul>
+    {% for post in site.categories.speaking %}
+    {%- if post.talk == "Thinker, Tester, Lawyer, Spy" -%}
+    {%- include talk-card.html -%}
+    {%- endif -%}
+    {% endfor %}
+  </ul>
+</div>
+
+<div style="clear: both">
+  <h3>There's more to code review than you might think</h3>
+  <ul>
+    {% for post in site.categories.speaking %}
+    {%- if post.talk == "There's more to code review than you might think" -%}
+    {%- include talk-card.html -%}
+    {%- endif -%}
+    {% endfor %}
+  </ul>
+</div>
+
+<div style="clear: both">
+  <h3>Educating Enfys (lightning talk)</h3>
+  <ul>
+    {% for post in site.categories.speaking %}
+    {%- if post.talk == "Educating Enfys" -%}
+    {%- include talk-card.html -%}
+    {%- endif -%}
+    {% endfor %}
+  </ul>
+</div>
+
+<div style="clear: both">
+  <h3>The less dull bits of testing</h3>
+  <ul>
+    {% for post in site.categories.speaking %}
+    {%- if post.talk == "The less dull bits of testing" -%}
+    {%- include talk-card.html -%}
+    {%- endif -%}
+    {% endfor %}
+  </ul>
+</div>
+

@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if site.posts.size > 0 -%}
+      {%- for post in paginator.posts -%}
+      <div class="post">
+
+        <h2>
+          <a class="post-link" href="{%- if post.link -%}{{ post.link }}{%- else -%}{{ post.url | relative_url }}{%- endif -%}">
+            {%- if post.starred == "starred" -%}★ &nbsp;{%- endif -%}{{ post.title | escape }}{%- if post.layout == "link" -%} 🔗{%- endif -%}
+          </a>
+        </h2>
+        {{ post.content }}
+
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <div class="post-meta"><p>{{ post.date | date: date_format }} &middot; <a href="{{ post.url | relative_url }}">Permalink</a></p></div>
+      </div>
+      {%- endfor -%}
+    </ul>
+    {% endif %}
+
+    <!-- pagination -->
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+        {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">‹ Prev</a>
+        {% else %}
+            <span>&laquo; Prev</span>
+        {% endif %}
+
+        {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+                <span class="webjeda">{{ page }}</span>
+            {% elsif page == 1 %}
+                <a href="/">{{ page }}</a>
+            {% else %}
+                <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+            {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next ›</a>
+        {% else %}
+            <span>Next &raquo;</span>
+        {% endif %}
+    </div>
+    {% endif %}
+</div>

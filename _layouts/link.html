@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h2>
+      <a class="post-link" href="{{ page.link }}">
+        {{ page.title | escape }} 🔗
+      </a>
+    </h2>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  <div class="post-meta"><p>{{ page.date | date: date_format }} &middot; <a href="{{ page.url | relative_url }}">Permalink</a></p></div>
+</article>

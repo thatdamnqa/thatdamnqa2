@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="Daniel Shaw" /></head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Daniel Shaw</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger">
+          <a class="page-link" href="/">Blog</a><a class="page-link" href="/portfolio">Portfolio</a><a class="page-link" href="/speaking">Speaking</a></div>
+      </nav><p class="site-description">Software QA. I also develop things at the weekend.</p>
+  </div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+    <header class="post-header">
+        <h2>Mocking in phpunit
+        </h2>
+    </header>
+
+    <div class="post-content e-content" itemprop="articleBody">
+        <p>To test a class in PHPUnit, it’s easier if you use dependency injection which enables you to mock other classes that
+we aren’t interested in testing (such as your database layer). So for example, instead of writing code like this to
+test a made-up User class:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class User() {
+    private $db;
+
+    function __construct()
+    {
+        $this-&gt;db = new Database;
+    }
+
+    function getUserData()
+    {
+        return $this-&gt;db-&gt;getUserData();
+    }
+}
+
+$user = new User();
+</code></pre></div></div>
+
+<p>We can pass in the database class instead:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>class User() {
+    private $db;
+
+    function __construct($db) {
+        $this-&gt;db = $db;
+    }
+
+    function getUserById($userid) {
+        return $this-&gt;db-&gt;getUserData($userid);
+    }
+}
+
+$db = new Database; $user = new User($db);
+</code></pre></div></div>
+
+<p>This means that we can mock the Database object when we’re testing the User class, and pass the former into the latter.
+We do this as PHPUnit won’t override the new keyword.</p>
+
+<p>In PHPUnit, it’s a case of creating the class but in place of using the new keyword we use a slightly longer one instead:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$mockDb = $this-&gt;getMock( 'Database', array('getUserData') );
+$mockDb-&gt;expects($this-&gt;any())
+                      -&gt;method('getUserData')
+                      -&gt;with('joebloggs')
+                      -&gt;will($this-&gt;returnValue(
+                          array('userid' =&gt; 'joebloggs', 'name' =&gt; 'Joe Bloggs')
+                 );
+
+$user = new User($mockDb);
+$this-&gt;assertEquals( $user-&gt;getUserById('joebloggs'), array('joebloggs', 'Joe Bloggs') )
+</code></pre></div></div>
+
+<p>In a nutshell, those two commands says what the class should be, and what the method should expect and return
+respectively. To break down what each bit of the two commands do:</p>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">getMock()</code> is saying mock the class given in the 1st parameter, and we want to return given values for the methods
+ given in the array in the 2nd parameter</p>
+  </li>
+  <li>
+    <p>The second command has a bit more too it. <code class="highlighter-rouge">expects($this-&gt;any())</code> will mean that it doesn’t matter whether the
+ method gets called or not: changing it to <code class="highlighter-rouge">expects($this-&gt;once())</code> will mean that if the method isn’t called (or is
+ called more than once) the test will fail</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">with()</code> is the parameters that you should expect to be passed in (which is a good way to check that the parameters
+ that’s being passed into a particular method are sensible), and <code class="highlighter-rouge">will($this-&gt;returnValue())</code> is what you want to give as
+ the known return value, for when you do your test</p>
+  </li>
+</ul>
+
+<p>Of course, there’s much more you can do with PHPUnit mocking. The documentation is a pretty good start to find out what else is there.</p>
+
+    </div><div class="post-meta"><p>Jan 9, 2014 &middot; <a href="/blog/2014-01/mocking-phpunit">Permalink</a></p></div>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+      <div class="social-links"><ul class="social-media-list"><li><a href="https://github.com/thatdamnqa" title="thatdamnqa"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a href="https://twitter.com/thatdamnqa" title="thatdamnqa"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg></a></li><li><a href="/feed.xml" title="RSS"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#rss"></use></svg></a></li>
+</ul>
+</div>
+  </div>
+</footer>
+</body>
+
+</html>
