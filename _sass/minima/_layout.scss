@@ -229,9 +229,6 @@
 /**
  * Posts
  */
-.post-header {
-  margin-bottom: $spacing-unit;
-}
 
 .post-title,
 .post-content h1 {
@@ -246,32 +243,6 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
-
-  /* Post title */
-  h2 {
-    @include relative-font-size(1.75);
-
-    @media screen and (min-width: $on-large) {
-      @include relative-font-size(2);
-    }
-  }
-
-  /* Headings in post */
-  h3 {
-    @include relative-font-size(1.375);
-
-    @media screen and (min-width: $on-large) {
-      @include relative-font-size(1.625);
-    }
-  }
-
-  h4 {
-    @include relative-font-size(1.125);
-
-    @media screen and (min-width: $on-large) {
-      @include relative-font-size(1.25);
-    }
-  }
 }
 
 

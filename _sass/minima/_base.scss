@@ -98,14 +98,31 @@ li {
 h1, h2, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
+
+/* Post title */
 h2 {
+  @include relative-font-size(1.75);
+
   display: block;
-  @include relative-font-size(1.5);
   border-bottom: 1px solid $grey-color-light;
+
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(2);
+  }
 }
+
+
+/* Headings in post */
 h3 {
+  @include relative-font-size(1.2);
+
   font-weight: $base-font-weight+100;
-  border-bottom: 1px solid $grey-color-light;
+  margin-bottom: 0.25ex;
+  margin-top: 2ex;
+
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(1.5);
+  }
 }
 
 
