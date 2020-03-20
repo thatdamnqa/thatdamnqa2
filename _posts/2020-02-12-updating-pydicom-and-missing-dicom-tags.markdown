@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Updating PyDicom and missing dicots tags?"
+title:  "Updating PyDicom and missing dicom tags?"
 date:   2020-02-12 00:00:00 +0000
 categories: blog
 ---
