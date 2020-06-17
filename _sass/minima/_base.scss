@@ -125,6 +125,18 @@ h3 {
   }
 }
 
+h4 {
+  @include relative-font-size(1.1);
+
+  font-weight: $base-font-weight+100;
+  margin-bottom: 0.25ex;
+  margin-top: 2ex;
+
+  @media screen and (min-width: $on-large) {
+    @include relative-font-size(1.2);
+  }
+}
+
 
 
 /**
