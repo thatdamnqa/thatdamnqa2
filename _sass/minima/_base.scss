@@ -116,6 +116,7 @@ h2 {
 h3 {
   @include relative-font-size(1.2);
 
+  color: $brand-color;
   font-weight: $base-font-weight+100;
   margin-bottom: 0.25ex;
   margin-top: 2ex;
