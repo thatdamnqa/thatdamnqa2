@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "On making a conference lineup more diverse"
+title:  "Rest and Ruby in MacOS"
 date:   2017-07-12 00:00:00 +0000
 categories: blog
 ---
