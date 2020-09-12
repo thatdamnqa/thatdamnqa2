@@ -1,7 +1,7 @@
 ---
 layout: link
 title:  "Problems with Test Automation and Modern QA"
-date:   2020-00-11 00:00:00 +0000
+date:   2020-09-11 00:00:00 +0000
 categories: blog
 link: https://devqa.io/problems-test-automation-modern-qa/
 ---
