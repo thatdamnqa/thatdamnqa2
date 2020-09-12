@@ -6,7 +6,7 @@ categories: blog
 starred: starred
 ---
 
-In the last year or so, it realised that perhaps we might be relying on acceptance criteria too much. Doing so can be dangerous; it can easily lead to checkbox testing, and it can lead to the tester (and even the developer) not thinking at all.
+In the last year or so, I realised that perhaps we might be relying on acceptance criteria too much. Doing so can be dangerous; it can easily lead to checkbox testing, and it can lead to the tester (and even the developer) not thinking at all.
 
 That's not to say that we shouldn't use ACs: let me explain.
 

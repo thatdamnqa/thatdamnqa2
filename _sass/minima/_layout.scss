@@ -267,9 +267,38 @@
 /**
  * Grid helpers
  */
+.flex {
+  display: flex;
+    div {
+      margin-right: #{$spacing-unit};
+    }
+    div:last-of-type {
+      margin: 0;
+    }
+}
+
 .one-half {
-  width: -webkit-calc(50% - (#{$spacing-unit} / 2));
   width:         calc(50% - (#{$spacing-unit} / 2));
+}
+.one-third{
+  width:         calc(33% - (#{$spacing-unit} / 2));
+}
+.two-third{
+  width:         calc(66% - (#{$spacing-unit} / 2));
+}
+
+
+@media screen and (max-width: $on-medium) {
+  .flex {
+    display: block;
+      div {
+        margin: 0 0 #{$spacing-unit} 0;
+      }
+  }
+  .one-half, .one-third, .two-third {
+    max-width: 100%;
+    min-width: -webkit-fill-available;
+  }
 }
 
 
