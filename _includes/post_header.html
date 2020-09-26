@@ -1,0 +1,13 @@
+{%- if include.as_link -%}
+    <a href=
+        "{%- if include.post.link and include.as_link == "True" -%}
+            {{ include.post.link }}
+        {%- else -%}
+            {{ include.post.url | relative_url }}
+        {%- endif -%}"
+    >
+{%- endif -%}
+    {%- if include.post.starred == "starred" -%}★ &nbsp;{%- endif -%}
+    {{ include.post.title | escape }}
+    {%- if include.post.layout == "link" -%} &nbsp;🔗{%- endif -%}
+{%- if include.as_link == "True" -%}</a>{%- endif -%}

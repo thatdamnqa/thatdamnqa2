@@ -3,11 +3,7 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-    <header class="post-header">
-        <h2>
-            {%- if post.starred == "starred" -%}★ &nbsp;{%- endif -%} {{ page.title | escape }}
-        </h2>
-    </header>
+    <h2>{% include post_header.html post=page %}</h2>
 
     <div class="post-content e-content" itemprop="articleBody">
         {{ content }}
