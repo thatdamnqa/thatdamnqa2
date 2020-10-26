@@ -3,7 +3,7 @@ layout: post
 title:  "Files not loading in a Virtualbox virtual machine"
 date:   2013-08-23 00:00:00 +0000
 categories: blog
-tags: development
+tags: vhosts
 ---
 Every so often, randomly I see a problem where a virtual machine will only partly load a CSS or Javascript file, and
 when you load it in the browser it will have a bunch of strange unicode characters in there

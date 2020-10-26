@@ -4,6 +4,7 @@ title:  "Colour blindness and iphone"
 date:   2016-07-06 00:00:00 +0000
 categories: blog
 link: http://www.imore.com/seeing-apple-through-color-blind-lens
+tags: Apple Design
 ---
 
 Jason Snell has written an interesting article on colour blindness:

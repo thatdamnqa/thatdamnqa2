@@ -3,7 +3,7 @@ layout: post
 title:  "Switching branches in Subversion without losing changes"
 date:   2013-07-26 00:00:00 +0000
 categories: blog
-tags: development
+tags: SVN
 ---
 The problem: you want to switch branches in Subversion, but you've got changes in your local code that you're not ready
 to commit

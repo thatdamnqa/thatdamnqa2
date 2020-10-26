@@ -3,6 +3,7 @@ layout: post
 title:  "When is a wifi connection not a wifi connection?"
 date:   2018-05-14 00:00:00 +0000
 categories: blog
+tags: Testing
 ---
 
 So, when building apps we always check that the app fails correctly with the correct error message when the phone is offline. But what if the phone reports as being online, but the data isn't what you expect it to be?

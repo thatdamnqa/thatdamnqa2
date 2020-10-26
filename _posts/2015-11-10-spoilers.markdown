@@ -4,6 +4,7 @@ title:  "Spoilers"
 date:   2015-11-10 00:00:00 +0000
 categories: blog
 link: http://www.nngroup.com/articles/spoilers/
+tags: Media
 ---
 
 Katie Sherwin, for Nielsen Norman Group, nails it when it comes to TV spoilers on the HBO Now service:

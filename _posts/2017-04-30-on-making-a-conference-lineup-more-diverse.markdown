@@ -4,6 +4,7 @@ title:  "On making a conference lineup more diverse"
 date:   2017-04-30 00:00:00 +0000
 categories: blog
 starred: starred
+tags: Inclusivity
 ---
 
 (Or, why I didn’t submit to the PHP Unicorn conference)

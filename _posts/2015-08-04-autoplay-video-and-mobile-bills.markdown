@@ -4,6 +4,7 @@ title:  "Autoplay video and mobile bills"
 date:   2015-08-04 00:00:00 +0000
 categories: blog
 link: http://www.moneysavingexpert.com/news/phones/2015/07/warning-twitter-users-face-big-bills-after-app-update-reverses-autoplay-opt-out
+tags: Quality
 ---
 
 Money Saving Expert:

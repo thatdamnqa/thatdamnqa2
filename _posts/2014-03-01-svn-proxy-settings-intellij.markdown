@@ -3,6 +3,7 @@ layout: post
 title:  "SVN proxy settings for IntelliJ"
 date:   2015-08-03 00:00:00 +0000
 categories: blog
+tags: macOS IntelliJ
 ---
 Proxy settings in OS X are weird. If you use SVN, Intellij wants to be different.
 

@@ -4,6 +4,7 @@ title:  "'You have to be a moron to stick this in the wrong way'"
 date:   2015-08-27 00:00:00 +0000
 categories: blog
 link: http://www.loopinsight.com/2015/08/27/leo-laporte-learns-about-samsungs-elegant-sense-of-design/
+tags: Android
 ---
 
 The Loop:

@@ -3,6 +3,8 @@ layout: post
 title:  "Checkbox Testing"
 date:   2019-09-30 00:00:00 +0000
 categories: blog
+tags:
+- Checkbox testing
 ---
 
 *Checkbox testing (n.): the act of running a pre-defined set of tests to confirm that the software is working.*

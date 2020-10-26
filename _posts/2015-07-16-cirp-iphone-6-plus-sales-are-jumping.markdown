@@ -4,6 +4,7 @@ title:  "CIRP: iPhone 6 Plus sales are jumping"
 date:   2015-07-16 00:00:00 +0000
 categories: blog
 link: http://www.loopinsight.com/2015/07/16/cirp-iphone-6-plus-sales-are-jumping/?utm_source=loopinsight.com&utm_campaign=loopinsight.com&utm_medium=referral
+tags: Apple
 ---
 
 The Loop:

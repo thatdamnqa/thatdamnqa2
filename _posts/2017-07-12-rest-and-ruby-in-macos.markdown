@@ -3,6 +3,7 @@ layout: post
 title:  "Rest and Ruby in MacOS"
 date:   2017-07-12 00:00:00 +0000
 categories: blog
+tags: Ruby macOS
 ---
 
 If you're getting the following error in Ruby, and no matter what you do you just can't fix it:

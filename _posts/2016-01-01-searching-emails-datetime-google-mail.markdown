@@ -3,6 +3,7 @@ layout: post
 title:  "Searching for emails by date/time in Google Mail"
 date:   2016-01-01 00:00:00 +0000
 categories: blog
+tags: Gmail
 ---
 
 I've recently had need to search for emails received after a specific time: as in, "After 3pm on the 1st January 2016", and not "After the 1st January 2016".

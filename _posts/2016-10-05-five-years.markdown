@@ -4,6 +4,7 @@ title:  "Five years"
 date:   2016-10-05 00:00:00 +0000
 categories: blog
 starred: starred
+tags: Apple Quality
 ---
 
 It’s been five years since Steve Jobs was cruelly taken away from us.

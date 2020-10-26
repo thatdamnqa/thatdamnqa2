@@ -4,6 +4,9 @@ title:  "Drop the crutches"
 date:   2017-01-09 00:00:00 +0000
 categories: blog
 link: http://www.developsense.com/blog/2017/01/drop-the-crutches/
+Tags: 
+- Testing
+- Checkbox testing
 ---
 
 I've never really been that much of a fan of test cases. I like to call the method of going through a list of tests one by one "checkbox testing". I don't like how it encourages you down a specific path, and discourages you from doing what testers are good at: checking the quality of a product.

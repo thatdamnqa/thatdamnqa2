@@ -3,6 +3,7 @@ layout: post
 title:  "Achieving the Ken Burns effect using CSS"
 date:   2014-08-03 00:00:00 +0000
 categories: blog
+tags: CSS
 ---
 The [Ken Burns effect](http://en.wikipedia.org/wiki/Ken_Burns_Effect) is a common technique used in video-making where
 a photograph or image is zoomed in and panned across, to make for more interesting visuals.

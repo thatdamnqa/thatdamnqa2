@@ -4,6 +4,7 @@ title:  "Testing, and being a tester"
 date:   2016-08-18 00:00:00 +0000
 categories: blog
 starred: starred
+tags: Testing
 ---
 
 Gem Hill made a [really interesting episode of her podcast](https://overcast.fm/+Enc7-bshs), talking about how she became a tester, and invited people to speak about their stories. 

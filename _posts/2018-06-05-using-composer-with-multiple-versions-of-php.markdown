@@ -3,9 +3,10 @@ layout: post
 title:  "Using PHP composer with multiple versions of PHP"
 date:   2018-06-05 00:00:00 +0000
 categories: blog
+tags: php
 ---
 
-This problem has hurt me a few times while updating this (Drupal) website, so I'm mostly posting this braindump for myself. But, it might help somebody else.
+This problem has hurt me a few times while updating a Drupal website, so I'm mostly posting this braindump for myself. But, it might help somebody else.
 
 The main cause of my problem is I commit composer's /vendor directory into git. (Why do I do this? [Here's an article which explains better than I could on why you may want to commit the vendor directory](https://www.codeenigma.com/build/blog/do-you-really-need-composer-production). In short, I find it more helpful to have all the code in git, for easier deployment. But, I may change my mind in the future, given these recent problems I've been having).
 

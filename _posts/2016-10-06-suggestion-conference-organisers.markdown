@@ -4,6 +4,7 @@ title:  "A suggestion for conference organisers"
 date:   2016-10-05 00:00:00 +0000
 categories: blog
 starred: starred
+Tags: Inclusivity
 ---
 
 Conferences are great, I really enjoy going to them. But also, I find conferences can be difficult to be at.

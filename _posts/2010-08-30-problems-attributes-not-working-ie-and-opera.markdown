@@ -3,7 +3,7 @@ layout: post
 title:  "Problems with attributes not working in IE and Opera?"
 date:   2010-08-30 00:00:00 +0000
 categories: blog
-tags: development
+tags: HTML
 ---
 So, what did I do with my bank holiday weekend? I was intrigued by some odd Opera and IE behaviour — that’s what.
 

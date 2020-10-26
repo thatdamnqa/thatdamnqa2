@@ -3,6 +3,7 @@ layout: post
 title:  "Updating PyDicom and missing dicom tags?"
 date:   2020-02-12 00:00:00 +0000
 categories: blog
+tags: Python
 ---
 
 As part of a bit of work updating PyDicomfrom 0.x to 1.x, I came across a number of AttributeErrors:

@@ -26,13 +26,21 @@ layout: default
 
     </div>
 
-    <div class="post one-third">
-        <h2>Latest blog posts</h2>
-        <ul>
-            {%- for post in site.posts limit: 5 -%}
-            <li>{% include post_header.html as_link="Permalink" post=post %}</li>
-            {%- endfor -%}
-        </ul>
-        <a href="/blog">See all posts</a>
+    <div class="one-third">
+        <div class="post">
+            <h2>Latest blog posts</h2>
+            <ul>
+                {%- for post in site.posts limit: 5 -%}
+                <li>{% include post_header.html as_link="Permalink" post=post %}</li>
+                {%- endfor -%}
+            </ul>
+            <a href="/blog">See all posts</a>
+        </div>
+
+        <div class="post tagcloud">
+            <h2>Tags</h2>
+            {% assign sorted_tags = site.tags | sort %}
+            {% for tag in sorted_tags %}<a href="/tag/{{ tag[0] | slugify}}">{{ tag[0] }}</a> {% endfor %}
+        </div>
     </div>
 </div>

@@ -3,7 +3,10 @@ layout: post
 title:  "Mocking in phpunit"
 date:   2014-01-10 00:00:00 +0000
 categories: blog
-tags: development
+tags:
+- PHP
+- TDD
+- Automated Testing
 ---
 To test a class in PHPUnit, it's easier if you use dependency injection which enables you to mock other classes that
 we aren't interested in testing (such as your database layer). So for example, instead of writing code like this to

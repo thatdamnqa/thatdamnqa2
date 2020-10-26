@@ -4,6 +4,7 @@ title:  "Writing a good commit message"
 date:   2015-07-28 00:00:00 +0000
 categories: blog
 starred: starred
+tags: Quality
 ---
 You see, I don't like the term "code review". I prefer "peer review": because you're not just looking at the code.
 

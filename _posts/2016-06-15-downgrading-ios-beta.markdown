@@ -4,6 +4,7 @@ title:  "Downgrading from iOS beta"
 date:   2016-06-16 00:00:00 +0000
 categories: blog
 link: https://support.apple.com/en-gb/HT201263
+tags: iOS
 ---
 
 A handy Knowledgebase article which provides instructions on downgrading iOS. Ignore the title, these steps work.

@@ -3,6 +3,7 @@ layout: post
 title:  "Here's To The Crazy Ones"
 date:   2015-10-02 00:00:00 +0000
 categories: blog
+tags: Apple
 ---
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/8rwsuXHA7RA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

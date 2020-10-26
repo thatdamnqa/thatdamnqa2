@@ -3,6 +3,7 @@ layout: post
 title:  "Technology vs Phonecalls"
 date:   2020-06-17 00:00:00 +0000
 categories: blog
+tags: Inclusivity
 ---
 
 Earlier today, Health Minister Lord Bethell said, referring to the UK Government Coronavirus tracing app:

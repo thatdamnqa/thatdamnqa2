@@ -3,6 +3,7 @@ layout: post
 title:  "Apple's Genius Bar just isn't working anymore"
 date:   2015-09-08 00:00:00 +0000
 categories: blog
+tags: Apple
 ---
 
 It wasn't so long ago that when you had a problem with any of your Apple products, you could drop by your local Apple Store and a friendly fellow geek would sort you how: in the case of hardware, usually by confirming the issue and giving you a replacement there and then.

@@ -4,6 +4,7 @@ title:  "Apple Watch In Review"
 date:   2015-06-24 00:00:00 +0000
 categories: blog
 starred: starred
+tags: Reviews
 ---
 It's been around 6 weeks since I've had my Apple Watch. Whilst not perfect, I'm still very happy with it. Here's a rundown of my thoughts.
 

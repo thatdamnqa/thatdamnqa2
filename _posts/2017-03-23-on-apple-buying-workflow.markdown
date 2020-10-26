@@ -3,6 +3,7 @@ layout: post
 title:  "On Apple buying Workflow"
 date:   2017-03-23 00:00:00 +0000
 categories: blog
+tags: Apple Inclusivity
 ---
 
 I'm sure over the next few days, there will be lots of opinion pieces written and published by lots of different people over the news that Apple have purchased Workflow.

@@ -4,6 +4,7 @@ title:  "Testing on previous versions of browsers"
 date:   2018-04-10 00:00:00 +0000
 categories: blog
 link: https://club.ministryoftesting.com/t/testing-on-previous-versions-of-browsers/14205
+tags: Testing
 ---
 
 This is something that comes up quite a lot, so I decided to write down once and for all my opinion on supporting old versions of those browsers that are updated often.

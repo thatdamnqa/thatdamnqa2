@@ -3,7 +3,7 @@ layout: post
 title:  "Reusing primary keys in MySQL"
 date:   2010-01-22 00:00:00 +0000
 categories: blog
-tags: development
+tags: SQL
 ---
 I’ve recently had need to reuse the primary key for a table whenever a row gets deleted, for example if a row of ID 5 gets deleted, the next entry will re-use the ID of 5. Usually this causes problems with foreign keys, but as no other table had a foreign key linked to this table, it would cause no problems.
 

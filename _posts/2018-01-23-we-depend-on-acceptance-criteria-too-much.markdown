@@ -4,6 +4,8 @@ title:  "We depend on Acceptance Criteria too much"
 date:   2018-01-23 00:00:00 +0000
 categories: blog
 starred: starred
+tags:
+- Acceptance Criteria
 ---
 
 In the last year or so, I realised that perhaps we might be relying on acceptance criteria too much. Doing so can be dangerous; it can easily lead to checkbox testing, and it can lead to the tester (and even the developer) not thinking at all.

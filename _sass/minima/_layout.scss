@@ -207,7 +207,9 @@
     background-color: $background-color;
     margin-bottom: $spacing-unit;
     padding: $spacing-unit;
+    padding-top: 20px;
     box-shadow: 3px 3px 3px $grey-color-light;
+    width: 100%;
 }
 
 .post-meta {
@@ -222,6 +224,12 @@
   float: left;
   margin-right: $spacing-unit;
   width: 25%;
+}
+
+.tagcloud {
+  a {
+    text-decoration: underline;
+  }
 }
 
 

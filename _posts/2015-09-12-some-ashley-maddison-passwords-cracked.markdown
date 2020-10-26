@@ -4,6 +4,7 @@ title:  Some Ashley Maddison passwords cracked
 date:   2015-09-12 00:00:00 +0000
 categories: blog
 link: http://arstechnica.com/security/2015/09/new-stats-show-ashley-madison-passwords-are-just-as-weak-as-all-the-rest/
+tags: Security
 ---
 
 A fair number of passwords from the Ashley Maddison hack have now been cracked. Click through if you want to see the (NSFW) top 100 list, but you wont see many surprises.

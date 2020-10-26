@@ -4,6 +4,7 @@ title:  "Headphone sexism"
 date:   2016-04-14 00:00:00 +0000
 categories: blog
 link: http://www.cnet.com/news/how-apple-changed-bose-headphones
+tags: Design
 ---
 
 Of all things I have an opinion on, the shape of headphone jacks is perhaps one of the most benign. I prefer L-shaped jacks, as opposed to straight ones. The reasoning is simple:

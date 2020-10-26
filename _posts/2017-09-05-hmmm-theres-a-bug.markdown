@@ -3,6 +3,9 @@ layout: post
 title:  "Hmmm... _there's_ a bug"
 date:   2017-09-05 00:00:00 +0000
 categories: blog
+tags:
+- Test Automation
+- Quality
 ---
 
 I spent some time tonight speaking with Michael Bolton, about automation. Something he said that could be done really struck me:

@@ -4,6 +4,7 @@ title:  "Why the Great Glitch of July 8th Should Scare You"
 date:   2015-07-10 00:00:00 +0000
 categories: blog
 link: https://medium.com/message/why-the-great-glitch-of-july-8th-should-scare-you-b791002fff03
+tags: Quality
 ---
 Zeynep Tufekci, on why we should worry about the state of software:
 

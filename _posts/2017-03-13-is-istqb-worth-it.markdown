@@ -4,6 +4,7 @@ title:  "Is ISTQB worth it?"
 date:   2017-03-13 00:00:00 +0000
 categories: blog
 starred: starred
+tags: Testing
 ---
 
 A common conversation among testers is certification, and whether it’s worth it. I only have experience with the ISTQB certification: I have both the Foundation and Advanced (Test Manager) certificates, so my opinions are on these.

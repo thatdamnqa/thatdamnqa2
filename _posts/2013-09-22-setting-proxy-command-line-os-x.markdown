@@ -3,7 +3,7 @@ layout: post
 title:  "Setting the proxy for command-line OS X"
 date:   2013-09-22 00:00:00 +0000
 categories: blog
-tags: development
+tags: macOS
 ---
 In OS X, it's pretty simple to set a Location to set a proxy for whenever you're somewhere you need to use one
 

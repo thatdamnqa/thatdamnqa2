@@ -4,6 +4,7 @@ title:  "Maybe we could tone down the JavaScript"
 date:   2016-03-08 00:00:00 +0000
 categories: blog
 link: https://eev.ee/blog/2016/03/06/maybe-we-could-tone-down-the-javascript/
+tags: Javascript Quality
 ---
 
 Something that's been on my mind for some time, but have never been able to find a way to put it across. Eevee does it perfectly:

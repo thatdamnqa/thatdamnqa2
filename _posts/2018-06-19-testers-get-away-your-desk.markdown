@@ -4,6 +4,7 @@ title:  "Testers, get away from your desk"
 date:   2018-06-19 00:00:00 +0000
 categories: blog
 starred: starred
+tags: Testing
 ---
 
 I'm writing this blog post as part of the [Ministry of Testing Blogger's Club](https://club.ministryoftesting.com/t/sprint-4-what-s-the-non-technical-skill-that-every-tester-should-have-but-most-don-t-seem-to/15759). The subject is *"What’s the non-technical skill that every tester should have, but most don’t seem to?"*. Most answers in the thread seem to involve communication, in some form. As important as communication is, most testers have reasonable skills in this.

@@ -3,6 +3,7 @@ layout: post
 title:  "Failure — it's ok"
 date:   2015-08-03 00:00:00 +0000
 categories: blog
+tags: Testing
 ---
 I've been thinking a little bit about the usual, and understandable, reaction from the average developer when they
 learn that there's a problem with their code.
